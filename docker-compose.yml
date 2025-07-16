@@ -1,0 +1,14 @@
+services:
+  bughunter:
+    build: .
+    container_name: bughunter
+    volumes:
+      - ./contracts:/app/contracts
+      - ./node_modules:/app/node_modules
+      - ./logs:/app/logs
+      - ./scripts:/app/scripts
+    environment:
+      - MODEL_API_KEY=sk-7c0c93e284ea4b879b12c7bb4527c6d2
+      - MODEL_BASE_URL=https://api.tensoropera.ai/v1
+      - MODEL_NAME=deepseek-chat-v3-0324
+    command: ["python3", "main.py"]
