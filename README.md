@@ -1,6 +1,6 @@
 # 🦅 ContractHawk – Watchful Eyes on Every Line of Code
 
-> A smart contract vulnerability analyzer combining **Slither**, **Mythril**, and **Solhint** with **AI-powered explanations** — to help developers catch real issues before deployment.
+> A smart contract auditor agent using AgentOpera framework, combining **Slither**, **Mythril**, and **Solhint** with **AI-powered explanations** — to help developers catch real issues before deployment.
 
 ---
 
@@ -61,8 +61,8 @@ Plus, it adds a unique layer of **AI-powered explanation**, making complex findi
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourname/contracthawk.git
-cd contracthawk
+git clone https://github.com/Abdulazeez41/ContractHawk.git
+cd ContractHawk
 ```
 
 ### 2. Build and Run with Docker
@@ -172,33 +172,9 @@ We welcome contributions from the community!
 
 ---
 
-## 📦 Folder Structure
-
-```
-.
-├── contracts/              # Place your Solidity contracts here
-├── logs/                   # Analysis reports are saved here
-├── tools/                  # Tool integrations (Slither, Mythril, Solhint)
-├── agents/                 # Core agent logic (BugHunterAgent, ExplainerAgent)
-├── core/                   # Utilities and parsers
-├── docker-compose.yml      # Docker setup for multi-tool execution
-├── Dockerfile              # Base image for ContractHawk
-├── requirements.txt        # Python dependencies
-└── README.md               # You're reading it!
-```
-
----
-
 ## 📝 License
 
 MIT License – see `LICENSE` for details.
-
----
-
-## 📢 Contact
-
-Have questions or feedback?  
-📧 Reach out via GitHub Issues or Discussions.
 
 ---
 
